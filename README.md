@@ -144,3 +144,13 @@ shinyApp(ui=ui, server=server)
 ```
 
 In this visualization, questions are clustered within skill categories. Some skill categories are more specific (such as wrangling, nlp, sna, d.trees), some are more general (such as coding, goolgeableable, non-googleable). We can see how many students get the questions related to specific skills right.
+
+## Relevant Materials
+
+[Shiny Apps Documentation](https://shiny.rstudio.com/)
+
+[Shiny Gallery](https://shiny.rstudio.com/gallery/)
+
+[Verbert, K., Duval, E., Klerkx, J., Govaerts, S., & Santos, J. L. (2013). Learning Analytics Dashboard Applications. American Behavioral Scientist, 57(10), 1500–1509.](https://journals.sagepub.com/doi/abs/10.1177/0002764213479363)
+
+
