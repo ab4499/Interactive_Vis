@@ -2,6 +2,8 @@
 
 Interactive visualization is becoming a more prominent feature of reporting. Business analytics packages tend to stress the ease eith which data can be played with by non-experts. Allowing students to explore aspects of complex data rather than simply telling them what you see can be a powerful tool for learning as explored in the readings. Within the RStudio universe this functionality is accomplished through the Shiny ecosystem. A web-app designing interface that allows web-apps to be built from within R with limited knowledge of javascript or html.
 
+![int_vis](https://github.com/ab4499/Interactive_Vis/blob/master/graphs/Int_vis.png "github")
+
 In this project, I will first practice and show some simple example of interactive visualizations, and then I will build one to show how students master different skills as tested.
 
 
