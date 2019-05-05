@@ -143,6 +143,8 @@ server<-function(input, output){
 shinyApp(ui=ui, server=server)
 ```
 
+Here is what the app looks like: [App](https://ab4499.shinyapps.io/Interactive_Vis1/)
+
 In this visualization, questions are clustered within skill categories. Some skill categories are more specific (such as wrangling, nlp, sna, d.trees), some are more general (such as coding, goolgeableable, non-googleable). We can see how many students get the questions related to specific skills right.
 
 ## Relevant Materials
