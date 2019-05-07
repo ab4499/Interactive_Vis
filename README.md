@@ -13,7 +13,7 @@ Now we will build another Shiny App one piece at a time (Only the code starting 
 
 ![gif1](https://github.com/ab4499/Interactive_Vis/blob/master/graphs/gif1.gif "github")
 
-## Final Part
+## Skill Mastery Check
 
 Build an interactive visualization using the data sets quiz-categories.csv and midterm-results.csv. These data represent midterm results from an open book test. The categories represent the skills required to answer each question:
 
@@ -30,7 +30,7 @@ jitl - Question involved learning somethimg new (just in time learning)
 substantive - Question involved wrestling with a complex idea that does not have a definitive answer
 
 Here is what the app looks like: 
-![App](http://recordit.co/I3DzLgE8Zj "github")
+![App](https://github.com/ab4499/Interactive_Vis/blob/master/graphs/gif2.gif "github")
 
 In this visualization, questions are clustered within skill categories. Some skill categories are more specific (such as wrangling, nlp, sna, d.trees), some are more general (such as coding, goolgeableable, non-googleable). We can see how many students get the questions related to specific skills right.
 
