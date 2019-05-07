@@ -7,37 +7,11 @@ Interactive visualization is becoming a more prominent feature of reporting. Bus
 In this project, I will first practice and show some simple example of interactive visualizations, and then I will build one to show how students master different skills as tested.
 
 
-## Basic Button
-
-```{r}
-ui <- fluidPage(actionButton("goButton", "Wake up!"),
-                textOutput("reply"))
-server <- function(input, output){
-  observeEvent(input, output)
-  output$reply<-renderText({"5 more minutes..."})
-}
-
-shinyApp(ui=ui, server=server)
-```
-
-
 ## Random Histogram Generator
 
 Now we will build another Shiny App one piece at a time (Only the code starting at line 97 will run). This app will generate a histogram based on random values drawn from a normal distribution, the user will be able to select the number of draws that generate the histogram by using a slider.
 
-```{r}
-ui <- fluidPage(
-  sliderInput(inputId = "num", label = "Choose a number", 
-    value = 1, min = 1, max = 100), plotOutput("hist"))
-
-server <- function(input, output) {
-  output$hist <- renderPlot({
-    hist(rnorm(input$num))
-  })
-}
-
-shinyApp(ui = ui, server = server)
-```
+![gif1](https://github.com/ab4499/Interactive_Vis/blob/master/graphs/gif1.gif "github")
 
 ## Final Part
 
